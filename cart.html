@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="header">
+        <a href=""><img src="img/logo.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag">
+                    <a href="cart.html" class="active">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
+                <a id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+        <dic id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></a></i>
+            <i class="fas fa-outdent" id="bar"></i>
+
+        </dic>
+    </section>
+
+
+    <section id="page-header" class="about-header">
+
+        <h2>#Let_Talk</h2>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+
+    </section>
+
+
+    <section id="cart" class="section-p1">
+        <table class="cart-i" width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <!-- <tbody class="cart-row">
+                <tr>
+                    <td><button class="btn-danger"><i class="fa-solid fa-circle-xmark"></i></button></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td><span class="cart-price">$10</span></td>
+                    <td><input class="cart-quantity-input" type="number" value="1"></td>
+                    <td class="row-total">$118</td>
+                </tr>
+            </tbody> -->
+            <!-- <tbody class="cart-row">
+                <tr>
+                    <td><button class="btn-danger"><i class="fa-solid fa-circle-xmark"></i></button></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td><span class="cart-price">$20</span></td>
+                    <td><input class="cart-quantity-input" type="number" value="1"></td>
+                    <td class="row-total">$118</td>
+                </tr>
+            </tbody>
+            <tbody class="cart-row">
+                <tr>
+                    <td><button class="btn-danger"><i class="fa-solid fa-circle-xmark"></i></button></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td><span class="cart-price">$30</span></td>
+                    <td><input class="cart-quantity-input" type="number" value="1"></td>
+                    <td class="row-total">$118</td>
+                </tr>
+            </tbody> -->
+        </table>
+
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Appply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your coupon">
+                <button class="normal" class="clear-local">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Totals</td>
+                    <td class="cart-total"></td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td class="cart-totalA"></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Lorem ipsum dolor sit amet.
+            </p>
+            <p><strong>Phone:</strong> 00 00000 00/00 00 00</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00 Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Term & Condition</a>
+            <a href="">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">Sign in</a>
+            <a href="">View Cart</a>
+            <a href="">MY Wishlist</a>
+            <a href="">Track My Order</a>
+            <a href="">Help</a>
+        </div>
+        <div class="col install">
+            <h4>install app</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        <div class="copy-right">
+            <p>&copy 2022, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+
+    <script src="cartSC.js"></script>
+</body>
+
+</html>
